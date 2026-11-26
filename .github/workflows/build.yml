@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unzip Project
-        run: unzip -o DesiEqualizer_10Band_Pro.zip
+        run: unzip -o DesiEqualizer_3in1_Pro.zip
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
